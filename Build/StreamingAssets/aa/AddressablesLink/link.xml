@@ -68,6 +68,7 @@
     <type fullname="LiveBreeder.UIBattleReward" preserve="all" />
     <type fullname="LiveBreeder.UIBattleRewardItem" preserve="all" />
     <type fullname="LiveBreeder.UIBattleSkillButton" preserve="all" />
+    <type fullname="LiveBreeder.UIBattleStateAnimController" preserve="all" />
     <type fullname="LiveBreeder.UIBattleTournamentResult" preserve="all" />
     <type fullname="LiveBreeder.UIBattleUnitDisplay" preserve="all" />
     <type fullname="LiveBreeder.UIBattleUnitInfo" preserve="all" />
