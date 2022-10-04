@@ -8,7 +8,6 @@
     <type fullname="LiveBreeder.BattleItemData" preserve="all" />
     <type fullname="LiveBreeder.BattleModifierBuffAttackDefend" preserve="all" />
     <type fullname="LiveBreeder.BattleModifierDamageCut" preserve="all" />
-    <type fullname="LiveBreeder.BattleRunner" preserve="all" />
     <type fullname="LiveBreeder.BattleRunnerPhoton" preserve="all" />
     <type fullname="LiveBreeder.BattleRunnerPhotonClient" preserve="all" />
     <type fullname="LiveBreeder.BattleUnitTemplate" preserve="all" />
@@ -103,6 +102,7 @@
     <type fullname="LiveBreeder.UIMainLists" preserve="all" />
     <type fullname="LiveBreeder.UIMainMenu" preserve="all" />
     <type fullname="LiveBreeder.UIMainMenuButtonPresentNotification" preserve="all" />
+    <type fullname="LiveBreeder.UIMainPopupPresent" preserve="all" />
     <type fullname="LiveBreeder.UIMainPresents" preserve="all" />
     <type fullname="LiveBreeder.UIMainPresentsEntry" preserve="all" />
     <type fullname="LiveBreeder.UIMainSkillButton" preserve="all" />
@@ -142,6 +142,7 @@
     <type fullname="LiveBreeder.VFXData" preserve="all" />
     <type fullname="LiveBreeder.VFXPoolingSystem" preserve="all" />
     <type fullname="LiveBreeder.ViewerWatchingBattle" preserve="all" />
+    <type fullname="SlicedFilledImage" preserve="all" />
     <type fullname="UICameraScaler" preserve="all" />
     <type fullname="UIHelpEntry" preserve="all" />
     <type fullname="UIHelpEntryData" preserve="all" />
@@ -210,9 +211,7 @@
     <type fullname="UnityEngine.Localization.PropertyVariants.TrackedProperties.LocalizedAssetProperty" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.PropertyVariants.TrackedProperties.LocalizedStringProperty" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Events.UnityEventString" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.LocalizedSprite" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.LocalizedString" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.PropertyVariants.TrackedProperties.EnumTrackedProperty" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Tables.TableEntryReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Tables.TableReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.PropertyVariants.TrackedObjects.TrackedMonoBehaviourObject" preserve="nothing" serialized="true" />
