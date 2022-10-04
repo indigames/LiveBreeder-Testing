@@ -113,6 +113,7 @@
     <type fullname="LiveBreeder.UIMainStatusTabButton" preserve="all" />
     <type fullname="LiveBreeder.UIMainTraining" preserve="all" />
     <type fullname="LiveBreeder.UIMainTrainingEntry" preserve="all" />
+    <type fullname="LiveBreeder.UIMainUserPresent" preserve="all" />
     <type fullname="LiveBreeder.UIMonsterCatalogueEntry" preserve="all" />
     <type fullname="LiveBreeder.UIMonsterTrainingStats" preserve="all" />
     <type fullname="LiveBreeder.UINetworkTester" preserve="all" />
