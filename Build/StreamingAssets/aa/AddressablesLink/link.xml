@@ -149,17 +149,17 @@
     <type fullname="UIOverlay" preserve="all" />
     <type fullname="URLParameters" preserve="all" />
     <type fullname="WebGLSupport.WebGLInput" preserve="all" />
+    <type fullname="LiveBreeder.UIBattleBrackets/PlayerEntry" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.MonsterState" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.Stats" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eChimeraSort]" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eSkillSort]" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.AudioSettings/BGMEntry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.AudioSettings/SFXEntry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.ModelState/Network" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.MonsterState" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.PlayerState" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SceneAssetReference" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.Stats" preserve="nothing" serialized="true" />
     <type fullname="URLParameters/TestData" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.UIBattleBrackets/PlayerEntry" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eChimeraSort]" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eSkillSort]" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SkillData/SkillApply" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SetItemData/ItemInSet" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.MonsterRank" preserve="nothing" serialized="true" />
