@@ -164,7 +164,7 @@
     <type fullname="LiveBreeder.SceneAssetReference" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.TournamentData/TournamentReward" preserve="nothing" serialized="true" />
     <type fullname="URLParameters/TestData" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.SkillData/SkillApply" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.SkillData/SkillActionData" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SetItemData/ItemInSet" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.IconsMonsterType/Entry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.Alignment" preserve="nothing" serialized="true" />
