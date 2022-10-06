@@ -154,21 +154,21 @@
     <type fullname="LiveBreeder.Stats" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eChimeraSort]" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eSkillSort]" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.ModelState/Network" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.PlayerState" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.SceneAssetReference" preserve="nothing" serialized="true" />
-    <type fullname="URLParameters/TestData" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.SkillData/SkillApply" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.SetItemData/ItemInSet" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.Alignment" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.AudioSettings/BGMEntry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.AudioSettings/SFXEntry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.CalendarData/Date" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.IconsAlignment/Entry" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.IconsMonsterType/Entry" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.ModelState/Network" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.MonsterRank" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.MonsterType" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.PlayerState" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.SceneAssetReference" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.TournamentData/TournamentReward" preserve="nothing" serialized="true" />
+    <type fullname="URLParameters/TestData" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.SkillData/SkillApply" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.SetItemData/ItemInSet" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.IconsMonsterType/Entry" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.Alignment" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.IconsAlignment/Entry" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="IngameDebugConsole.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="IngameDebugConsole.DebugLogItem" preserve="all" />
@@ -193,8 +193,8 @@
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceSprite" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[Spine.Unity.SkeletonDataAsset]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Localization.Components.LocalizeStringEvent" preserve="all" />
@@ -217,11 +217,6 @@
     <type fullname="UnityEngine.Localization.PropertyVariants.TrackedObjects.TrackedMonoBehaviourObject" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.LocaleIdentifier" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Metadata.MetadataCollection" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Metadata.AssetTypeMetadata" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Tables.DistributedUIDGenerator" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Tables.SharedTableData/SharedTableEntry" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Metadata.SmartFormatTag" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Tables.TableEntryData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Settings.CommandLineLocaleSelector" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Settings.LocalesProvider" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Settings.LocalizedAssetDatabase" preserve="nothing" serialized="true" />
@@ -246,6 +241,11 @@
     <type fullname="UnityEngine.Localization.SmartFormat.Extensions.XElementFormatter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.SmartFormat.Extensions.XmlSource" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.SmartFormat.SmartFormatter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Metadata.AssetTypeMetadata" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.DistributedUIDGenerator" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.SharedTableData/SharedTableEntry" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Metadata.SmartFormatTag" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.TableEntryData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
