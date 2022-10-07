@@ -6,10 +6,9 @@
     <type fullname="LiveBreeder.AudioSettings" preserve="all" />
     <type fullname="LiveBreeder.BattleBoostData" preserve="all" />
     <type fullname="LiveBreeder.BattleItemData" preserve="all" />
-    <type fullname="LiveBreeder.BattleModifierBuffAttackDefend" preserve="all" />
-    <type fullname="LiveBreeder.BattleModifierDamageCut" preserve="all" />
     <type fullname="LiveBreeder.BattleRunnerPhoton" preserve="all" />
     <type fullname="LiveBreeder.BattleRunnerPhotonClient" preserve="all" />
+    <type fullname="LiveBreeder.BattleStatusData" preserve="all" />
     <type fullname="LiveBreeder.BattleUnitTemplate" preserve="all" />
     <type fullname="LiveBreeder.BreedData" preserve="all" />
     <type fullname="LiveBreeder.BreedItemData" preserve="all" />
@@ -48,10 +47,6 @@
     <type fullname="LiveBreeder.SceneTitle" preserve="all" />
     <type fullname="LiveBreeder.SetItemData" preserve="all" />
     <type fullname="LiveBreeder.SkillData" preserve="all" />
-    <type fullname="LiveBreeder.SkillDataDamage" preserve="all" />
-    <type fullname="LiveBreeder.SkillDataDamageDebuff" preserve="all" />
-    <type fullname="LiveBreeder.SkillDataDamageStunOnDefender" preserve="all" />
-    <type fullname="LiveBreeder.SkillDataDefend" preserve="all" />
     <type fullname="LiveBreeder.SkillRequirementData" preserve="all" />
     <type fullname="LiveBreeder.SpineAnimController" preserve="all" />
     <type fullname="LiveBreeder.TournamentData" preserve="all" />
@@ -293,6 +288,7 @@
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.RenderSettings" preserve="all" />
