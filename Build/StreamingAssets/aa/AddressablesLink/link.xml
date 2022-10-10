@@ -145,7 +145,6 @@
     <type fullname="UIOverlay" preserve="all" />
     <type fullname="URLParameters" preserve="all" />
     <type fullname="WebGLSupport.WebGLInput" preserve="all" />
-    <type fullname="UIHelpEntryData/HelpDisplayData" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.UIBattleBrackets/PlayerEntry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.MonsterState" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.Stats" preserve="nothing" serialized="true" />
@@ -157,6 +156,7 @@
     <type fullname="LiveBreeder.PlayerState" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SceneAssetReference" preserve="nothing" serialized="true" />
     <type fullname="URLParameters/TestData" preserve="nothing" serialized="true" />
+    <type fullname="UIHelpEntryData/HelpDisplayData" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.IconsMonsterType/Entry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.MonsterType" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.Alignment" preserve="nothing" serialized="true" />
