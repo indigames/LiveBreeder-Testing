@@ -126,7 +126,6 @@
     <type fullname="LiveBreeder.Stats" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eChimeraSort]" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eSkillSort]" preserve="nothing" serialized="true" />
-    <type fullname="UIHelpEntryData/HelpDisplayData" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.IconsMonsterType/Entry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.MonsterType" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.Alignment" preserve="nothing" serialized="true" />
@@ -135,6 +134,7 @@
     <type fullname="LiveBreeder.SetItemData/ItemInSet" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SkillData/SkillActionData" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.TournamentData/TournamentReward" preserve="nothing" serialized="true" />
+    <type fullname="UIHelpEntryData/HelpDisplayData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="IngameDebugConsole.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="IngameDebugConsole.DebugLogItem" preserve="all" />
@@ -158,8 +158,8 @@
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReferenceSprite" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceSprite" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[Spine.Unity.SkeletonDataAsset]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
