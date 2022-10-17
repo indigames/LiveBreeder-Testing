@@ -1,7 +1,6 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="DisableOnFinish" preserve="all" />
-    <type fullname="EpicToonFX.ETFXLightFade" preserve="all" />
     <type fullname="EpicToonFX.ETFXRotation" preserve="all" />
     <type fullname="LiveBreeder.AudioSettings" preserve="all" />
     <type fullname="LiveBreeder.BattleBoostData" preserve="all" />
@@ -16,6 +15,7 @@
     <type fullname="LiveBreeder.DisplayBattleMonster" preserve="all" />
     <type fullname="LiveBreeder.DisplayBreed" preserve="all" />
     <type fullname="LiveBreeder.DisplayBreedEntry" preserve="all" />
+    <type fullname="LiveBreeder.DisplayConfirmSelectBreed" preserve="all" />
     <type fullname="LiveBreeder.DisplayMainMonster" preserve="all" />
     <type fullname="LiveBreeder.EmotionAnimController" preserve="all" />
     <type fullname="LiveBreeder.GameDataBase" preserve="all" />
@@ -76,6 +76,7 @@
     <type fullname="LiveBreeder.UICommentSection" preserve="all" />
     <type fullname="LiveBreeder.UIHelp" preserve="all" />
     <type fullname="LiveBreeder.UIHelpEntryButton" preserve="all" />
+    <type fullname="LiveBreeder.UIIReleaseMonsterItemEntry" preserve="all" />
     <type fullname="LiveBreeder.UILearnedNewSkillItem" preserve="all" />
     <type fullname="LiveBreeder.UILearnedNewSkills" preserve="all" />
     <type fullname="LiveBreeder.UIMain" preserve="all" />
@@ -122,6 +123,7 @@
     <type fullname="LiveBreeder.UIPVPHost" preserve="all" />
     <type fullname="LiveBreeder.UIPVPLobby" preserve="all" />
     <type fullname="LiveBreeder.UIPVPLobbyEntry" preserve="all" />
+    <type fullname="LiveBreeder.UIReleaseMonster" preserve="all" />
     <type fullname="LiveBreeder.UISelectMonsterList" preserve="all" />
     <type fullname="LiveBreeder.UISelectStartingEggSelect" preserve="all" />
     <type fullname="LiveBreeder.UISortItemEntry" preserve="all" />
@@ -186,7 +188,6 @@
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
-    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceSprite" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1[Spine.Unity.SkeletonDataAsset]" preserve="nothing" serialized="true" />
   </assembly>
@@ -235,9 +236,6 @@
     <type fullname="UnityEngine.Localization.Metadata.SmartFormatTag" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Tables.TableEntryData" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
-  </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
@@ -258,7 +256,6 @@
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
-    <type fullname="UnityEngine.Light" preserve="all" />
     <type fullname="UnityEngine.LightingSettings" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
@@ -283,6 +280,9 @@
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
     <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.SpriteMask" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
