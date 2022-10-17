@@ -74,6 +74,7 @@
     <type fullname="LiveBreeder.UIChatBox" preserve="all" />
     <type fullname="LiveBreeder.UIChatboxOverlay" preserve="all" />
     <type fullname="LiveBreeder.UICommentSection" preserve="all" />
+    <type fullname="LiveBreeder.UIConfirmUpdateSkillSet" preserve="all" />
     <type fullname="LiveBreeder.UIHelp" preserve="all" />
     <type fullname="LiveBreeder.UIHelpEntryButton" preserve="all" />
     <type fullname="LiveBreeder.UIIReleaseMonsterItemEntry" preserve="all" />
