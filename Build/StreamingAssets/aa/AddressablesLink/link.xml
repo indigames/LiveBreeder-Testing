@@ -15,7 +15,6 @@
     <type fullname="LiveBreeder.DisplayBattleMonster" preserve="all" />
     <type fullname="LiveBreeder.DisplayBreed" preserve="all" />
     <type fullname="LiveBreeder.DisplayBreedEntry" preserve="all" />
-    <type fullname="LiveBreeder.DisplayConfirmSelectBreed" preserve="all" />
     <type fullname="LiveBreeder.DisplayMainMonster" preserve="all" />
     <type fullname="LiveBreeder.EmotionAnimController" preserve="all" />
     <type fullname="LiveBreeder.GameDataBase" preserve="all" />
@@ -74,7 +73,6 @@
     <type fullname="LiveBreeder.UIChatBox" preserve="all" />
     <type fullname="LiveBreeder.UIChatboxOverlay" preserve="all" />
     <type fullname="LiveBreeder.UICommentSection" preserve="all" />
-    <type fullname="LiveBreeder.UIConfirmUpdateSkillSet" preserve="all" />
     <type fullname="LiveBreeder.UIHelp" preserve="all" />
     <type fullname="LiveBreeder.UIHelpEntryButton" preserve="all" />
     <type fullname="LiveBreeder.UIIReleaseMonsterItemEntry" preserve="all" />
@@ -156,15 +154,15 @@
     <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eChimeraSort]" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eSkillSort]" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.UIBattleBrackets/PlayerEntry" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.Alignment" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.IconsAlignment/Entry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.IconsMonsterType/Entry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.MonsterType" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.CalendarData/Date" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.Alignment" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.IconsAlignment/Entry" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.TournamentData/TournamentReward" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.SkillData/SkillActionData" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.MonsterRank" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SetItemData/ItemInSet" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.SkillData/SkillActionData" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.TournamentData/TournamentReward" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.CalendarData/Date" preserve="nothing" serialized="true" />
     <type fullname="UIHelpEntryData/HelpDisplayData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="IngameDebugConsole.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -281,9 +279,6 @@
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
     <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
-  </assembly>
-  <assembly fullname="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.SpriteMask" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
