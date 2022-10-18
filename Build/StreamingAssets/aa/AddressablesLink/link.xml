@@ -149,9 +149,15 @@
     <type fullname="LiveBreeder.Stats" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.AudioSettings/BGMEntry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.AudioSettings/SFXEntry" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.CalendarData/Date" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.ModelState/Network" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.MonsterRank" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.MonsterType" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.PlayerState" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SceneAssetReference" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.SetItemData/ItemInSet" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.SkillData/SkillActionData" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.TournamentData/TournamentReward" preserve="nothing" serialized="true" />
     <type fullname="URLParameters/TestData" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eChimeraSort]" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eSkillSort]" preserve="nothing" serialized="true" />
@@ -159,12 +165,6 @@
     <type fullname="LiveBreeder.Alignment" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.IconsAlignment/Entry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.IconsMonsterType/Entry" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.MonsterType" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.CalendarData/Date" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.MonsterRank" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.SetItemData/ItemInSet" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.SkillData/SkillActionData" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.TournamentData/TournamentReward" preserve="nothing" serialized="true" />
     <type fullname="UIHelpEntryData/HelpDisplayData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="IngameDebugConsole.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
