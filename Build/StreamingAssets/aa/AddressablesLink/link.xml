@@ -22,6 +22,7 @@
     <type fullname="LiveBreeder.Helper.ImageURLLoader" preserve="all" />
     <type fullname="LiveBreeder.IconsAlignment" preserve="all" />
     <type fullname="LiveBreeder.IconsMonsterType" preserve="all" />
+    <type fullname="LiveBreeder.IconStatUp" preserve="all" />
     <type fullname="LiveBreeder.MealItemData" preserve="all" />
     <type fullname="LiveBreeder.Model" preserve="all" />
     <type fullname="LiveBreeder.ModelAudio" preserve="all" />
@@ -153,6 +154,8 @@
     <type fullname="LiveBreeder.PlayerState" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SceneAssetReference" preserve="nothing" serialized="true" />
     <type fullname="URLParameters/TestData" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.IconStatUp/Entry" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.IconStatUp/Stat" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eChimeraSort]" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eSkillSort]" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.UIBattleBrackets/PlayerEntry" preserve="nothing" serialized="true" />
