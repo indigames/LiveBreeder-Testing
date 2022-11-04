@@ -13,6 +13,7 @@
     <type fullname="LiveBreeder.BreedItemData" preserve="all" />
     <type fullname="LiveBreeder.CalendarData" preserve="all" />
     <type fullname="LiveBreeder.DisplayBattleMonster" preserve="all" />
+    <type fullname="LiveBreeder.DisplayBattleMonsterStatus" preserve="all" />
     <type fullname="LiveBreeder.DisplayBreed" preserve="all" />
     <type fullname="LiveBreeder.DisplayBreedEntry" preserve="all" />
     <type fullname="LiveBreeder.DisplayConfirmSelectBreed" preserve="all" />
@@ -26,6 +27,7 @@
     <type fullname="LiveBreeder.MealItemData" preserve="all" />
     <type fullname="LiveBreeder.Model" preserve="all" />
     <type fullname="LiveBreeder.ModelAudio" preserve="all" />
+    <type fullname="LiveBreeder.ModelBattle" preserve="all" />
     <type fullname="LiveBreeder.ModelData" preserve="all" />
     <type fullname="LiveBreeder.ModelDebug" preserve="all" />
     <type fullname="LiveBreeder.ModelScenes" preserve="all" />
@@ -158,6 +160,7 @@
     <type fullname="LiveBreeder.IconStatUp/Stat" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eChimeraSort]" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eSkillSort]" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.DisplayBattleMonsterStatus/Marker" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.UIBattleBrackets/PlayerEntry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.Alignment" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.IconsAlignment/Entry" preserve="nothing" serialized="true" />
