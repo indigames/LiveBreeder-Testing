@@ -5,6 +5,8 @@
     <type fullname="LiveBreeder.AudioSettings" preserve="all" />
     <type fullname="LiveBreeder.BattleBoostData" preserve="all" />
     <type fullname="LiveBreeder.BattleItemData" preserve="all" />
+    <type fullname="LiveBreeder.BattleRunnerClient" preserve="all" />
+    <type fullname="LiveBreeder.BattleRunnerClientDisplay" preserve="all" />
     <type fullname="LiveBreeder.BattleRunnerPhoton" preserve="all" />
     <type fullname="LiveBreeder.BattleRunnerPhotonClient" preserve="all" />
     <type fullname="LiveBreeder.BattleStatusData" preserve="all" />
@@ -43,6 +45,7 @@
     <type fullname="LiveBreeder.PresentData" preserve="all" />
     <type fullname="LiveBreeder.SceneBattle" preserve="all" />
     <type fullname="LiveBreeder.SceneBreeding" preserve="all" />
+    <type fullname="LiveBreeder.SceneClientBattle" preserve="all" />
     <type fullname="LiveBreeder.SceneMain" preserve="all" />
     <type fullname="LiveBreeder.ScenePVPBattle" preserve="all" />
     <type fullname="LiveBreeder.SceneSelectStartingEgg" preserve="all" />
