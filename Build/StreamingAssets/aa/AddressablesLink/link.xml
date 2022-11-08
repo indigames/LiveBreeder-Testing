@@ -3,6 +3,7 @@
     <type fullname="DisableOnFinish" preserve="all" />
     <type fullname="EpicToonFX.ETFXRotation" preserve="all" />
     <type fullname="LiveBreeder.AudioSettings" preserve="all" />
+    <type fullname="LiveBreeder.BackendConfig" preserve="all" />
     <type fullname="LiveBreeder.BattleBoostData" preserve="all" />
     <type fullname="LiveBreeder.BattleItemData" preserve="all" />
     <type fullname="LiveBreeder.BattleRunnerClient" preserve="all" />
