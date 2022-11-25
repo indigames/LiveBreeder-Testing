@@ -4,6 +4,7 @@
     <type fullname="EpicToonFX.ETFXRotation" preserve="all" />
     <type fullname="LiveBreeder.AudioSettings" preserve="all" />
     <type fullname="LiveBreeder.BackendConfig" preserve="all" />
+    <type fullname="LiveBreeder.BackendDebugTestPresent" preserve="all" />
     <type fullname="LiveBreeder.BattleBoostData" preserve="all" />
     <type fullname="LiveBreeder.BattleItemData" preserve="all" />
     <type fullname="LiveBreeder.BattleRunnerClient" preserve="all" />
@@ -15,6 +16,9 @@
     <type fullname="LiveBreeder.BreedData" preserve="all" />
     <type fullname="LiveBreeder.BreedItemData" preserve="all" />
     <type fullname="LiveBreeder.CalendarData" preserve="all" />
+    <type fullname="LiveBreeder.CommonVFX" preserve="all" />
+    <type fullname="LiveBreeder.ConditionalSkillData" preserve="all" />
+    <type fullname="LiveBreeder.ConditionalTypeData" preserve="all" />
     <type fullname="LiveBreeder.DisplayBattleMonster" preserve="all" />
     <type fullname="LiveBreeder.DisplayBattleMonsterStatus" preserve="all" />
     <type fullname="LiveBreeder.DisplayBreed" preserve="all" />
@@ -42,6 +46,7 @@
     <type fullname="LiveBreeder.MonsterRaceData" preserve="all" />
     <type fullname="LiveBreeder.MultiplayerPhotonLobby" preserve="all" />
     <type fullname="LiveBreeder.Network.FacadeNetworkConnect" preserve="all" />
+    <type fullname="LiveBreeder.PassiveSkillData" preserve="all" />
     <type fullname="LiveBreeder.PlayerRankExpData" preserve="all" />
     <type fullname="LiveBreeder.PresentData" preserve="all" />
     <type fullname="LiveBreeder.SceneBattle" preserve="all" />
@@ -65,6 +70,7 @@
     <type fullname="LiveBreeder.UIBattleModifierIcon" preserve="all" />
     <type fullname="LiveBreeder.UIBattleOtherUnitSkill" preserve="all" />
     <type fullname="LiveBreeder.UIBattlePopup" preserve="all" />
+    <type fullname="LiveBreeder.UIBattlePopupLearnSkill" preserve="all" />
     <type fullname="LiveBreeder.UIBattlePopupPresent" preserve="all" />
     <type fullname="LiveBreeder.UIBattleReward" preserve="all" />
     <type fullname="LiveBreeder.UIBattleRewardItem" preserve="all" />
@@ -114,6 +120,7 @@
     <type fullname="LiveBreeder.UIMainStatus" preserve="all" />
     <type fullname="LiveBreeder.UIMainStatusBloodline" preserve="all" />
     <type fullname="LiveBreeder.UIMainStatusBloodlineEntry" preserve="all" />
+    <type fullname="LiveBreeder.UIMainStatusChangeMonsterNameBox" preserve="all" />
     <type fullname="LiveBreeder.UIMainStatusSkillset" preserve="all" />
     <type fullname="LiveBreeder.UIMainStatusStatus" preserve="all" />
     <type fullname="LiveBreeder.UIMainStatusTabButton" preserve="all" />
@@ -152,7 +159,11 @@
     <type fullname="UIOverlay" preserve="all" />
     <type fullname="URLParameters" preserve="all" />
     <type fullname="WebGLSupport.WebGLInput" preserve="all" />
+    <type fullname="LiveBreeder.Alignment" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.IconsAlignment/Entry" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.IconsMonsterType/Entry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.MonsterState" preserve="nothing" serialized="true" />
+    <type fullname="LiveBreeder.MonsterType" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.Stats" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.AudioSettings/BGMEntry" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.AudioSettings/SFXEntry" preserve="nothing" serialized="true" />
@@ -166,16 +177,20 @@
     <type fullname="LiveBreeder.SortDisplay`1[LiveBreeder.eSkillSort]" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.DisplayBattleMonsterStatus/Marker" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.UIBattleBrackets/PlayerEntry" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.Alignment" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.IconsAlignment/Entry" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.IconsMonsterType/Entry" preserve="nothing" serialized="true" />
-    <type fullname="LiveBreeder.MonsterType" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.CalendarData/Date" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.MonsterRank" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SetItemData/ItemInSet" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.SkillData/SkillActionData" preserve="nothing" serialized="true" />
     <type fullname="LiveBreeder.TournamentData/TournamentReward" preserve="nothing" serialized="true" />
     <type fullname="UIHelpEntryData/HelpDisplayData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="IngameDebugConsole.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="IngameDebugConsole.DebugLogItem" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugLogManager" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugLogPopup" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugLogRecycledListView" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugLogResizeListener" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugsOnScrollListener" preserve="all" />
   </assembly>
   <assembly fullname="PhotonUnityNetworking, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Photon.Pun.PhotonView" preserve="all" />
@@ -201,14 +216,18 @@
     <type fullname="UnityEngine.Localization.Tables.AssetTable" preserve="all" />
     <type fullname="UnityEngine.Localization.Tables.SharedTableData" preserve="all" />
     <type fullname="UnityEngine.Localization.Tables.StringTable" preserve="all" />
+    <type fullname="UnityEngine.Localization.LocaleIdentifier" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Metadata.MetadataCollection" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.DistributedUIDGenerator" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.SharedTableData/SharedTableEntry" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Metadata.SmartFormatTag" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.TableEntryData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.PropertyVariants.TrackedObjects.TrackedUGuiGraphic" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.PropertyVariants.TrackedProperties.LocalizedStringProperty" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.LocalizedFont" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.PropertyVariants.TrackedObjects.TrackedRectTransform" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.PropertyVariants.TrackedProperties.FloatTrackedProperty" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.PropertyVariants.TrackedProperties.LocalizedAssetProperty" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.LocaleIdentifier" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Metadata.MetadataCollection" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Settings.CommandLineLocaleSelector" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Settings.LocalesProvider" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Settings.LocalizedAssetDatabase" preserve="nothing" serialized="true" />
@@ -234,10 +253,6 @@
     <type fullname="UnityEngine.Localization.SmartFormat.Extensions.XmlSource" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.SmartFormat.SmartFormatter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.PropertyVariants.TrackedObjects.TrackedMonoBehaviourObject" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Tables.DistributedUIDGenerator" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Tables.SharedTableData/SharedTableEntry" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Metadata.SmartFormatTag" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Tables.TableEntryData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
@@ -309,6 +324,7 @@
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
     <type fullname="UnityEngine.UI.Outline" preserve="all" />
     <type fullname="UnityEngine.UI.RawImage" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
     <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
     <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
     <type fullname="UnityEngine.UI.Shadow" preserve="all" />
@@ -320,14 +336,14 @@
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
