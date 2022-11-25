@@ -184,14 +184,6 @@
     <type fullname="LiveBreeder.TournamentData/TournamentReward" preserve="nothing" serialized="true" />
     <type fullname="UIHelpEntryData/HelpDisplayData" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="IngameDebugConsole.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="IngameDebugConsole.DebugLogItem" preserve="all" />
-    <type fullname="IngameDebugConsole.DebugLogManager" preserve="all" />
-    <type fullname="IngameDebugConsole.DebugLogPopup" preserve="all" />
-    <type fullname="IngameDebugConsole.DebugLogRecycledListView" preserve="all" />
-    <type fullname="IngameDebugConsole.DebugLogResizeListener" preserve="all" />
-    <type fullname="IngameDebugConsole.DebugsOnScrollListener" preserve="all" />
-  </assembly>
   <assembly fullname="PhotonUnityNetworking, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Photon.Pun.PhotonView" preserve="all" />
   </assembly>
@@ -324,7 +316,6 @@
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
     <type fullname="UnityEngine.UI.Outline" preserve="all" />
     <type fullname="UnityEngine.UI.RawImage" preserve="all" />
-    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
     <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
     <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
     <type fullname="UnityEngine.UI.Shadow" preserve="all" />
